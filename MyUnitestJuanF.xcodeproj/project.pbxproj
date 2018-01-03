@@ -14,6 +14,8 @@
 		0D26FDB51FFD1895002CF94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D26FDB41FFD1895002CF94E /* Assets.xcassets */; };
 		0D26FDB81FFD1895002CF94E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D26FDB61FFD1895002CF94E /* LaunchScreen.storyboard */; };
 		0D26FDC31FFD1896002CF94E /* MyUnitestJuanFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D26FDC21FFD1896002CF94E /* MyUnitestJuanFTests.swift */; };
+		0D26FDCE1FFD1A1D002CF94E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D26FDCD1FFD1A1D002CF94E /* User.swift */; };
+		0D26FDCF1FFD1A67002CF94E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D26FDCD1FFD1A1D002CF94E /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 		0D26FDBE1FFD1896002CF94E /* MyUnitestJuanFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyUnitestJuanFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D26FDC21FFD1896002CF94E /* MyUnitestJuanFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUnitestJuanFTests.swift; sourceTree = "<group>"; };
 		0D26FDC41FFD1896002CF94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D26FDCD1FFD1A1D002CF94E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 				0D26FDB61FFD1895002CF94E /* LaunchScreen.storyboard */,
 				0D26FDB91FFD1895002CF94E /* Info.plist */,
 				0D26FDB11FFD1895002CF94E /* MyUnitestJuanF.xcdatamodeld */,
+				0D26FDCD1FFD1A1D002CF94E /* User.swift */,
 			);
 			path = MyUnitestJuanF;
 			sourceTree = "<group>";
@@ -202,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D26FDCE1FFD1A1D002CF94E /* User.swift in Sources */,
 				0D26FDAD1FFD1895002CF94E /* ViewController.swift in Sources */,
 				0D26FDB31FFD1895002CF94E /* MyUnitestJuanF.xcdatamodeld in Sources */,
 				0D26FDAB1FFD1895002CF94E /* AppDelegate.swift in Sources */,
@@ -212,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D26FDCF1FFD1A67002CF94E /* User.swift in Sources */,
 				0D26FDC31FFD1896002CF94E /* MyUnitestJuanFTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
